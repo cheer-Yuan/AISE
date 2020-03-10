@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cheerfulliu/Desktop/AISE/projet/my_malloc.c
+my_malloc.h
+/home/cheerfulliu/Desktop/AISE/projet/my_malloc.h
+
+/home/cheerfulliu/Desktop/AISE/projet/my_malloc.h
+stddef.h
+-
+pthread.h
+-
+sys/mman.h
+-
+

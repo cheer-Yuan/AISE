@@ -1,0 +1,1 @@
+/usr/bin/gcc -g   CMakeFiles/projet.dir/main.c.o CMakeFiles/projet.dir/alloc.c.o  -o projet 
