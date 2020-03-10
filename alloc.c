@@ -95,19 +95,23 @@ void* my_calloc(size_t num , size_t size)
 }	
 
 
+//fonction realloc
 void* my_realloc(void* bloc , size_t size)
 {
 
 	header_t* header;
 	void* new_bloc;
 
-	if(!bloc || !size){
-		return my_malloc(size);
+	if(!bloc || !size)  //paramètres invalides
+	{
+		return NULL;
 	}
 
 	header = (header_t*)bloc - 1;
 
-	if(header->head.size >= size){
+	if(header->head.size >= size)   //si on veut un bloc plus petit, on retourne le meme bloc
+	{
+	    printf("Impossible to reallocate a smaller memory\n");
 		return bloc ;
 	}
 
