@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cheerfulliu/Desktop/AISE/AISE/alloc.c
+alloc.h
+/home/cheerfulliu/Desktop/AISE/AISE/alloc.h
+sys/types.h
+-
+sys/mman.h
+-
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+pthread.h
+-
+
+/home/cheerfulliu/Desktop/AISE/AISE/alloc.h
+sys/types.h
+-
+

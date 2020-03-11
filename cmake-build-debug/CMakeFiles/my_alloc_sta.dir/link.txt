@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/libmy_alloc.a  CMakeFiles/my_alloc_sta.dir/alloc.c.o
+/usr/bin/ranlib lib/libmy_alloc.a

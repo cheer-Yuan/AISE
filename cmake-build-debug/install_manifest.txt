@@ -1,0 +1,3 @@
+/usr/lib/libmy_alloc.so
+/usr/lib/libmy_alloc.a
+/usr/include/alloc.h

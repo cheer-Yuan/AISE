@@ -6,15 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/home/cheerfulliu/Desktop/AISE/projet/my_malloc.c
-my_malloc.h
-/home/cheerfulliu/Desktop/AISE/projet/my_malloc.h
-
-/home/cheerfulliu/Desktop/AISE/projet/my_malloc.h
-stddef.h
--
-pthread.h
+/home/cheerfulliu/Desktop/AISE/AISE/alloc.c
+alloc.h
+/home/cheerfulliu/Desktop/AISE/AISE/alloc.h
+sys/types.h
 -
 sys/mman.h
 -
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+pthread.h
+-
+
+/home/cheerfulliu/Desktop/AISE/AISE/alloc.h
+sys/types.h
+-
+
+/home/cheerfulliu/Desktop/AISE/AISE/main.c
+stdio.h
+-
+alloc.h
+/home/cheerfulliu/Desktop/AISE/AISE/alloc.h
 

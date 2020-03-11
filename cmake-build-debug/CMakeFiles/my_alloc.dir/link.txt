@@ -1,0 +1,1 @@
+/usr/bin/gcc -fPIC -g  -shared -Wl,-soname,libmy_alloc.so -o lib/libmy_alloc.so CMakeFiles/my_alloc.dir/alloc.c.o 

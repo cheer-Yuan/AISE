@@ -1,0 +1,3 @@
+/home/cheerfulliu/Desktop/AISE/AISE/test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/cheerfulliu/Desktop/AISE/AISE/test/cmake-build-debug/CMakeFiles/test.dir
+/home/cheerfulliu/Desktop/AISE/AISE/test/cmake-build-debug/CMakeFiles/edit_cache.dir

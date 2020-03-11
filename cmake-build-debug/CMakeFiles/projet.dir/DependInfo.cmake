@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/cheerfulliu/Desktop/AISE/projet/alloc.c" "/home/cheerfulliu/Desktop/AISE/projet/cmake-build-debug/CMakeFiles/projet.dir/alloc.c.o"
-  "/home/cheerfulliu/Desktop/AISE/projet/main.c" "/home/cheerfulliu/Desktop/AISE/projet/cmake-build-debug/CMakeFiles/projet.dir/main.c.o"
+  "/home/cheerfulliu/Desktop/AISE/AISE/alloc.c" "/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/CMakeFiles/projet.dir/alloc.c.o"
+  "/home/cheerfulliu/Desktop/AISE/AISE/main.c" "/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/CMakeFiles/projet.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

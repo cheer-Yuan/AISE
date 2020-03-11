@@ -1,3 +1,9 @@
-/home/cheerfulliu/Desktop/AISE/projet/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/cheerfulliu/Desktop/AISE/projet/cmake-build-debug/CMakeFiles/projet.dir
-/home/cheerfulliu/Desktop/AISE/projet/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/CMakeFiles/install/strip.dir
+/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/CMakeFiles/install/local.dir
+/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/CMakeFiles/install.dir
+/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/CMakeFiles/list_install_components.dir
+/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/CMakeFiles/my_alloc_sta.dir
+/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/CMakeFiles/my_alloc.dir
+/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/CMakeFiles/projet.dir
+/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/CMakeFiles/rebuild_cache.dir

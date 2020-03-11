@@ -8,28 +8,138 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/cheerfulliu/Desktop/AISE/projet/cmake-build-debug"/>
+				<Option working_dir="/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/home/cheerfulliu/Desktop/AISE/projet/cmake-build-debug"/>
+			<Target title="install/strip">
+				<Option working_dir="/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="my_alloc_sta">
+				<Option output="/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/lib/libmy_alloc.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 my_alloc_sta"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="my_alloc_sta/fast">
+				<Option output="/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/lib/libmy_alloc.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 my_alloc_sta/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="my_alloc">
+				<Option output="/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/lib/libmy_alloc.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 my_alloc"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="my_alloc/fast">
+				<Option output="/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/lib/libmy_alloc.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 my_alloc/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="projet">
-				<Option output="/home/cheerfulliu/Desktop/AISE/projet/cmake-build-debug/projet" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/cheerfulliu/Desktop/AISE/projet/cmake-build-debug"/>
+				<Option output="/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/projet" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -41,15 +151,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 projet"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 projet"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="projet/fast">
-				<Option output="/home/cheerfulliu/Desktop/AISE/projet/cmake-build-debug/projet" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/cheerfulliu/Desktop/AISE/projet/cmake-build-debug"/>
+				<Option output="/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/projet" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -61,33 +171,47 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 projet/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 projet/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/cheerfulliu/Desktop/AISE/projet/cmake-build-debug"/>
+				<Option working_dir="/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/projet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cheerfulliu/Desktop/AISE/AISE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/cheerfulliu/Desktop/AISE/projet/alloc.c">
+		<Unit filename="/home/cheerfulliu/Desktop/AISE/AISE/alloc.c">
+			<Option target="my_alloc_sta"/>
+			<Option target="my_alloc"/>
 			<Option target="projet"/>
 		</Unit>
-		<Unit filename="/home/cheerfulliu/Desktop/AISE/projet/alloc.h">
+		<Unit filename="/home/cheerfulliu/Desktop/AISE/AISE/alloc.h">
+			<Option target="my_alloc_sta"/>
+			<Option target="my_alloc"/>
 			<Option target="projet"/>
 		</Unit>
-		<Unit filename="/home/cheerfulliu/Desktop/AISE/projet/main.c">
+		<Unit filename="/home/cheerfulliu/Desktop/AISE/AISE/main.c">
 			<Option target="projet"/>
 		</Unit>
-		<Unit filename="/home/cheerfulliu/Desktop/AISE/projet/CMakeLists.txt">
+		<Unit filename="/home/cheerfulliu/Desktop/AISE/AISE/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
