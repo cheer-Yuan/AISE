@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/test.dir/main.c.o"
+  "CMakeFiles/test.dir/my_alloc.c.o"
   "test"
   "test.pdb"
 )

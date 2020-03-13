@@ -81,6 +81,12 @@
 		<Unit filename="/home/cheerfulliu/Desktop/AISE/AISE/test/main.c">
 			<Option target="test"/>
 		</Unit>
+		<Unit filename="/home/cheerfulliu/Desktop/AISE/AISE/test/my_alloc.c">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/cheerfulliu/Desktop/AISE/AISE/test/my_alloc.h">
+			<Option target="test"/>
+		</Unit>
 		<Unit filename="/home/cheerfulliu/Desktop/AISE/AISE/test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

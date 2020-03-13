@@ -23,7 +23,7 @@ int main(int argc , char** argv){
 
 
 
-    A=my_calloc(5,sizeof(int));
+    A=calloc(5,sizeof(int));
     A[0]=5;
 
 
@@ -47,7 +47,7 @@ int main(int argc , char** argv){
         printf("%p\n",&A[i] );
     }*/
 
-    my_free(A);
+    free(A);
 
 
 }

@@ -1,13 +1,11 @@
-#include <stdio.h>
-#include <alloc.h>
+#include "my_alloc.h"
 
 
 int main( )
 {
-    int* A;
-    A = my_calloc(5,sizeof(int));
+    //3 kb par bloc * 1024
 
 
-    printf("Hello, World!\n");
-    return 0;
+    test_small_chain(1024, (int)3 * 1024 / 4);
+    exit(0);
 }

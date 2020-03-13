@@ -16,7 +16,7 @@ header_t* tail_chaine;
 pthread_mutex_t mutex_lock;
 
 //fonction malloc
-void* my_malloc(size_t size)
+void* malloc(size_t size)
 {
     //initialisation
 	header_t* header;
@@ -26,19 +26,24 @@ void* my_malloc(size_t size)
 	//bloquer
 	pthread_mutex_lock(&mutex_lock);
 
-	//chercher un bloc de memoire libre existant dans le chaine
+	//chercher un bloc de memoire libre existant dans le chaine, tech FF
 	header_t* courant = head_chaine;
 	while(courant)
-	{   //chercher un bloc libre dans le chaine
+	{
+
+	    //chercher un bloc libre dans le chaine
 		if (courant->head.is_free && courant->head.size >= size)    //trouvé
         {
+
 		    header = courant;
             pthread_mutex_unlock(&mutex_lock);  //débloquer
+
             return(void*)(header + 1);  //pour retourner, on saute l'adresse qui enregistre l'union dans le bloc
         }
 		courant = courant->head.next;
 	}
-	
+
+
 	//si on ne trouve aucun bloc libre dans le chaine, on alloue un bloc via mmap
 	bloc = mmap(0 , total_size,  PROT_READ | PROT_WRITE, MAP_ANON | MAP_SHARED, 0, 0);
 	if(bloc == MAP_FAILED)  //si on échoue d'allouer le bloc
@@ -53,18 +58,21 @@ void* my_malloc(size_t size)
 	header->head.is_free = 0;   //marquer non disponible
 	header->head.next = NULL;   //mettre à la fin du chaine donc prochine bloc = null
 
+
 	if(!head_chaine)   //si c'est premier bloc du chaine
 		head_chaine = header;
 	if(tail_chaine) tail_chaine->head.next = header;    //s'il existe un ancienne fin du chaine, le mettre en devant ce bloc
 	tail_chaine = header;  //renouveler la fin du chiane
 	pthread_mutex_unlock(&mutex_lock);  //débloquer
+
+	//printf("%zu, %d", header->head.size, header->head.is_free);
 	
 	return(void*)(header + 1);
 }
 
 
 //fonction calloc
-void* my_calloc(size_t num , size_t size)
+void* calloc(size_t num , size_t size)
 {
 	if(!num || !size)    //les paramètres doivent etre différent à zéro
 	{   
@@ -82,7 +90,7 @@ void* my_calloc(size_t num , size_t size)
 	    return NULL;
     }
 	
-	bloc = my_malloc(total_size);
+	bloc = malloc(total_size);
 
 	if(!bloc)   //échec d'allocation
 	{
@@ -96,7 +104,7 @@ void* my_calloc(size_t num , size_t size)
 
 
 //fonction realloc
-void* my_realloc(void* bloc , size_t size)
+void* realloc(void* bloc , size_t size)
 {
 
 	header_t* header;
@@ -115,11 +123,11 @@ void* my_realloc(void* bloc , size_t size)
 		return bloc ;
 	}
 
-	new_bloc = my_malloc(size); //allouer un nouveau bloc
+	new_bloc = malloc(size); //allouer un nouveau bloc
 	if(new_bloc)
 	{   //copier coller le contenu dans les anciennes adresses vers les nouvelles et free l'ancien bloc
 		memcpy(new_bloc, bloc, header->head.size);
-		my_free(bloc);
+		free(bloc);
 	}
 
 	return new_bloc;
@@ -127,7 +135,7 @@ void* my_realloc(void* bloc , size_t size)
 
 
 //fonction free
-void my_free(void* bloc)
+void free(void* bloc)
 {
 	header_t* header;
 	header = (header_t*)bloc - 1;   //le début de l'adresse du bloc à librer

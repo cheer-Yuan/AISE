@@ -150,6 +150,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/main.c.s
 .PHONY : main.c.s
 
+my_alloc.o: my_alloc.c.o
+
+.PHONY : my_alloc.o
+
+# target to build an object file
+my_alloc.c.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/my_alloc.c.o
+.PHONY : my_alloc.c.o
+
+my_alloc.i: my_alloc.c.i
+
+.PHONY : my_alloc.i
+
+# target to preprocess a source file
+my_alloc.c.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/my_alloc.c.i
+.PHONY : my_alloc.c.i
+
+my_alloc.s: my_alloc.c.s
+
+.PHONY : my_alloc.s
+
+# target to generate assembly for a file
+my_alloc.c.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/my_alloc.c.s
+.PHONY : my_alloc.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... my_alloc.o"
+	@echo "... my_alloc.i"
+	@echo "... my_alloc.s"
 .PHONY : help
 
 

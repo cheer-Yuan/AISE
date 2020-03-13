@@ -1,1 +1,1 @@
-/usr/bin/gcc -g   CMakeFiles/test.dir/main.c.o  -o test -lmy_alloc 
+/usr/bin/gcc -g   CMakeFiles/test.dir/main.c.o CMakeFiles/test.dir/my_alloc.c.o  -o test -lmy_alloc 
