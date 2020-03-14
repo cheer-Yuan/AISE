@@ -1,5 +1,9 @@
 #ifndef _LIB_ALLOC_
 #define _LIB_ALLOC_
+#include <sys/mman.h>
+#include <stdio.h>
+#include <string.h>
+#include <pthread.h>
 #include <sys/types.h>
 
 
@@ -19,6 +23,8 @@ union header{
 
 typedef union header header_t;
 
+void profiler_init();
+void profiler(int size);
 void* malloc(size_t size);
 void* realloc(void* p,size_t size);
 void free(void* p);

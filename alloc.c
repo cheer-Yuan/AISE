@@ -1,12 +1,7 @@
 #include "alloc.h"
-#include <sys/types.h>
-#include <sys/mman.h>
-#include <stdlib.h>
-#include <stdio.h>
-#include <string.h>
-#include <pthread.h>
 
-static size_t bytes, kbs, mbs, gbs;
+//variables compteurs
+static size_t byte, kb, mb, gb;
 
 //variables globales qui enregistrent le début et la fin du chaine
 header_t* head_chaine;
@@ -66,7 +61,8 @@ void* malloc(size_t size)
 	pthread_mutex_unlock(&mutex_lock);  //débloquer
 
 	//printf("%zu, %d", header->head.size, header->head.is_free);
-	
+
+
 	return(void*)(header + 1);
 }
 
@@ -139,8 +135,51 @@ void free(void* bloc)
 {
 	header_t* header;
 	header = (header_t*)bloc - 1;   //le début de l'adresse du bloc à librer
+	header->head.is_free = 1;       //marquer disponible
 	munmap(header,sizeof(header_t) + header->head.size);  //free la taille de mémoire allouée au bloc
 }
 
 
+
+//compter la taille de mémoire allouée
+void profiler(int size)
+{
+    int real_size = size + 32;
+    if(real_size >= 1024 || real_size <= -1024)
+    {
+        kb += real_size / 1024;
+        byte += real_size % 1024;
+    }
+    else byte += real_size;
+
+    if (byte >= 1024)
+    {
+        kb += 1;
+        byte = byte % 1024;
+    }
+    if (kb >= 1024)
+    {
+        mb += 1;
+        kb = kb % 1024;
+    }
+    if (mb >= 1024)
+    {
+        gb += 1;
+        mb = mb % 1024;
+    }
+
+    if(byte < 0)
+    {
+        kb -= 1;
+        byte += 1024;
+    }
+
+    printf("Memory used : %zu bytes, %zu kb, %zu mb, %zu gb", byte, kb, mb, gb);
+}
+
+//initialiser les comptuers
+void profiler_init()
+{
+    byte = kb = mb = gb = 0;
+}
 

@@ -48,6 +48,7 @@ int main(int argc , char** argv){
     }*/
 
     free(A);
-
+    size_t a = 3500;
+    printf("%lu", a / 1024);
 
 }

@@ -1,0 +1,16 @@
+Ce projet s'agit d'un allocateur de mémoire.
+
+Mode de compilation pour linux:
+	1. Aller dans le fichier cmake-build-debug
+	2. Ovrir un terminal
+	3. cmake ..
+	   make
+	   sudo make install
+	4. Les fichiers de la bibliotèque .so et .a se trouvera dans le path /usr/lib; le fichier header "alloc.h" se trouve dans /usr/include
+	5. Dans n'importe quel autre projet, on peut utiliser ces fonctions implémentées par #include <alloc.h>.
+
+Le fichier test s'agit du test de perormance.
+
+
+Liste de fonctionnalités :
+	A1 :
