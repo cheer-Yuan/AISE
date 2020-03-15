@@ -23,6 +23,7 @@ union header{
 
 typedef union header header_t;
 
+size_t align(size_t total);
 void profiler_init();
 void profiler(int size);
 void* malloc(size_t size);

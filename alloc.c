@@ -10,6 +10,13 @@ header_t* tail_chaine;
 //variable qui bloque la mémoire pour éviter les conflits dans un processus multithread
 pthread_mutex_t mutex_lock;
 
+//l'alignement de la mémoire par 8 bytes car en
+size_t align(size_t total)
+{
+    if(total % 8 == 0) return total;
+    return ((total >> 3 ) + 1) << 3;
+}
+
 //fonction malloc
 void* malloc(size_t size)
 {
@@ -17,6 +24,7 @@ void* malloc(size_t size)
 	header_t* header;
 	void* bloc;
 	size_t total_size = size + sizeof(header_t);    //la taille totale à allouer
+    total_size = align(total_size);
 
 	//bloquer
 	pthread_mutex_lock(&mutex_lock);

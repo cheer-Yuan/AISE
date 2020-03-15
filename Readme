@@ -19,7 +19,7 @@ Liste de fonctionnalités :
 	A4 : Compilé par cmake. Consultéz le rapport et le CMakeLists.txt.
 	A5 : Recyclage réaliser par la structure de chaine et la variable is_free dans le header de chaque bloc.
 	A6 : Consultez le rapport.
-	B1 :
+	B1 : L'alignement de la mémoire est fait par la fonction align
 	B2 : L'union header contient les données de chaque bloc alloué.
 	B3 : On a implémenté des vairables et les fonction qui peut bloquer et débloquer pour éviter les conflits dans le contexte de multithreading.
 	B4 :
