@@ -15,23 +15,6 @@
   <component name="ChangeListManager">
     <list default="true" id="27848d1a-7e32-4e61-b3c0-182d6e7131c3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme" beforeDir="false" afterPath="$PROJECT_DIR$/Readme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/my_alloc.dir/alloc.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/my_alloc.dir/alloc.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/my_alloc_sta.dir/alloc.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/my_alloc_sta.dir/alloc.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projet.dir/alloc.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projet.dir/alloc.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projet.dir/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projet.dir/main.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/libmy_alloc.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libmy_alloc.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/libmy_alloc.so" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libmy_alloc.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/projet" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/projet" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/cmake-build-debug/CMakeFiles/test.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/test/cmake-build-debug/CMakeFiles/test.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/cmake-build-debug/CMakeFiles/test.dir/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/test/cmake-build-debug/CMakeFiles/test.dir/main.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/cmake-build-debug/CMakeFiles/test.dir/my_alloc.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/test/cmake-build-debug/CMakeFiles/test.dir/my_alloc.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/cmake-build-debug/test" beforeDir="false" afterPath="$PROJECT_DIR$/test/cmake-build-debug/test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/test/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/my_alloc.c" beforeDir="false" afterPath="$PROJECT_DIR$/test/my_alloc.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/my_alloc.h" beforeDir="false" afterPath="$PROJECT_DIR$/test/my_alloc.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +91,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583755223698</updated>
       <workItem from="1583755225770" duration="23710000" />
-      <workItem from="1583957734999" duration="25678000" />
+      <workItem from="1583957734999" duration="27733000" />
     </task>
     <servers />
   </component>
