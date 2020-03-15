@@ -13,4 +13,16 @@ Le fichier test s'agit du test de perormance.
 
 
 Liste de fonctionnalités :
-	A1 :
+	A1 : La bibliothèque contnant ces 4 fonction est construit et compilée.
+	A2 : Fiches libmy_alloc.so et libmy_alloc.a générées puis installées.
+	A3 : Oui, via mmap() et munmap().
+	A4 : Compilé par cmake. Consultéz le rapport et le CMakeLists.txt.
+	A5 : Recyclage réaliser par la structure de chaine et la variable is_free dans le header de chaque bloc.
+	A6 : Consultez le rapport.
+	B1 :
+	B2 : L'union header contient les données de chaque bloc alloué.
+	B3 : On a implémenté des vairables et les fonction qui peut bloquer et débloquer pour éviter les conflits dans le contexte de multithreading.
+	B4 :
+	B5 : On a utiliser la règle de First Fit dans notre allocateur. On voudrais tester FIFO ou Seconde Chance.
+	B6 : La mesure de performance est dans le ficher test. Consultez le rapport pour plus d'informations.
+	B7 : On a voulu réaliser un compteur de mémoire par les variables globales statiques mais on rencontres des fautes SIGSEGV. Donc cette fonction n'est pas mise en place.

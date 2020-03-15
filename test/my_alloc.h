@@ -8,7 +8,7 @@
 #include <stdio.h>
 #include <alloc.h>
 #include <time.h>
-#include <stdlib.h>
+
 
 void test_small_chain(int num_bloc, int int_per_bloc);
 

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/cheerfulliu/Desktop/AISE/AISE/test/main.c
+/home/cheerfulliu/Desktop/AISE/AISE/test/my_alloc.c
 my_alloc.h
 /home/cheerfulliu/Desktop/AISE/AISE/test/my_alloc.h
 
@@ -16,7 +16,5 @@ stdio.h
 alloc.h
 -
 time.h
--
-stdlib.h
 -
 

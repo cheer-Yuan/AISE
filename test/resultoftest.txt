@@ -1,0 +1,45 @@
+Test on system function of malloc.
+Total allocated : 3.000000 mb.
+Function called : 1024 times. 
+Total time spend : 5 ms. 
+
+Test on system function of malloc.
+Total allocated : 12.000000 mb.
+Function called : 1024 times. 
+Total time spend : 8 ms. 
+
+Test on system function of malloc.
+Total allocated : 48.000000 mb.
+Function called : 4096 times. 
+Total time spend : 35 ms. 
+
+Test on our own function of malloc.
+Total allocated : 3.000000 mb.
+Function called : 1024 times. 
+Total time spend : 26 ms. 
+
+Test on our own function of malloc.
+Total allocated : 12.000000 mb.
+Function called : 1024 times. 
+Total time spend : 130 ms. 
+
+Test on our own function of malloc.
+Total allocated : 48.000000 mb.
+Function called : 4096 times. 
+Total time spend : 1931 ms. 
+
+Test on our own function of malloc with optimisation flag -O3.
+Total allocated : 3.000000 mb.
+Function called : 1024 times. 
+Total time spend : 50 ms. 
+
+Test on our own function of malloc with optimisation flag -O3.
+Total allocated : 12.000000 mb.
+Function called : 1024 times. 
+Total time spend : 134 ms. 
+
+Test on our own function of malloc with optimisation flag -O3.
+Total allocated : 48.000000 mb.
+Function called : 4096 times. 
+Total time spend : 1946 ms. 
+

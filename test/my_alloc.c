@@ -24,7 +24,7 @@ void test_small_chain(int num_bloc, int int_per_bloc)
 
     clock_gettime(CLOCK_REALTIME, &end);
 
-    printf("Total allocated : %f mb\nFunction called : %d times\nTotla time spend : %ld ms",
+    printf("Test on our own function of malloc with optimisation flag -O3.\nTotal allocated : %f mb\nFunction called : %d times\nTotla time spend : %ld ms\n\n",
             (float)num_bloc * (float)int_per_bloc * 4 / 1024 / 1024,
             num_bloc,
            (end.tv_sec - start.tv_sec)*1000 + (end.tv_nsec - start.tv_nsec)/1000000 );
